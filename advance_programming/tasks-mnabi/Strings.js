@@ -1,4 +1,4 @@
-// There's on StringBuilder in JavaScript, but the following sulution is similar to StringBuilder
+// There's no StringBuilder in JavaScript, but the following sulution is similar to StringBuilder
 // Implemented By (Mohammad Nabi)  (NO Stackoverflow or internet)
 
 class StringBuilder {

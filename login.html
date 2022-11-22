@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Login</title>
+   </head>
+   <style>
+      body {
+         background-color: #2c3338;
+         color: #606468;
+         font-size: 0.875rem;
+         margin: 0px;
+      }
+
+      main {
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+         display: flex;
+         justify-content: center;
+         align-items: center;
+      }
+
+      .controller {
+         margin: 8px;
+      }
+
+      .controller input {
+         padding: 12px;
+         outline: 0px;
+         border: none;
+         background: #3b4148;
+         color: white;
+      }
+
+      .controller button {
+         padding: 10px;
+         border: none;
+         outline: none;
+         width: 100%;
+         background: #00d089;
+         transition: all 0.3s;
+         border: 1px solid #00d089;
+      }
+
+      .controller button:hover {
+         outline: none;
+         background-color: #2c3338;
+         color: white;
+         border: 1px solid #00d089;
+      }
+   </style>
+   <body>
+      <main>
+         <form>
+            <div class="controller">
+               <input id="username" type="text" placeholder="Username" />
+            </div>
+            <div class="controller">
+               <input id="password" type="password" placeholder="Password" />
+            </div>
+            <div class="controller">
+               <button type="button" onclick="saveUserCredentials()">Login</button>
+            </div>
+         </form>
+      </main>
+   </body>
+   <script src="./js/script.js"></script>
+</html>

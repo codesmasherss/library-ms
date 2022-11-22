@@ -1,0 +1,158 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.body
+{
+    width: 1140px;
+}
+.container 
+{
+   min-width: 700px;
+  
+    margin-left: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    
+}
+.container .wrapper
+{
+    
+    width:900px;
+}
+
+.container .extra-info
+{
+    display:flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.container .extra-info .item
+{
+    display:flex;
+    
+}
+.container .extra-info .item .text
+{
+    
+    padding-left: 20px;
+}
+
+.container .form
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    
+}
+.container .form >*
+{
+   
+    font-size: 20px;
+    border: 2px solid green;
+    border-width: thin;
+    border-radius: 5px;
+}
+
+
+
+.container .form #message
+{
+    
+    grid-column-start: 1;
+    grid-column-end: 3;
+    height:       150px;
+    
+}
+.container .form #subject
+{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    height: 50px;
+}
+.container .form #name
+{
+    
+    grid-column-start: 1;
+    grid-column-end: 2;
+    height: 50px;
+    
+}
+.container .form #email
+{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    height:50px;
+   
+   
+}
+.container .form .button
+{
+    height:40px;
+    grid-column-start: 1;
+    color: green;
+    text-align: center;
+    grid-column-end: 2;
+    width: 170px;
+
+}
+.button h3:hover
+{
+    color: white;
+    background-color: green;
+    height: 100%;
+    cursor: pointer;
+}
+
+.container .extra-info img
+{
+    height: 40px;
+    width: 50px;
+
+}
+@media(max-width:950px) {
+   
+.container .form #message
+{
+    
+    grid-column-start: 1;
+    grid-column-end: 2;
+    height:       150px;
+    
+}
+.container .form #subject
+{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    height: 50px;
+}
+.container .form #name
+{
+    
+    grid-column-start: 1;
+    grid-column-end: 2;
+    height: 50px;
+    
+}
+.container .form #email
+{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    height:50px;
+   
+   
+}
+.container .form .button
+{
+    height:40px;
+    grid-column-start: 1;
+    color: green;
+    text-align: center;
+    grid-column-end: 2;
+    width: 170px;
+
+}
+
+}

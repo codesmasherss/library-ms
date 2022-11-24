@@ -4,6 +4,10 @@
    box-sizing: border-box;
    font-family: Arial, Helvetica, sans-serif;
 }
+.dark-mode{
+   background-color: black;
+   color: white;
+}
 
 .row {
    max-width: 1140px;
@@ -254,7 +258,7 @@ h1 {
    font-weight: bolder;
 }
 
-.cards-1 {
+.cards-1{
    /* background: firebrick; */
 }
 
@@ -522,6 +526,7 @@ h1 {
    padding: 20px 0px;
    color: white;
 }
+
 
 li {
    text-decoration: none;

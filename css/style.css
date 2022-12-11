@@ -331,8 +331,8 @@ h1 {
 }
 
 .books-image {
-   width: 100%;
-   height: 100%;
+  width: 500px;
+  height: 400px;
 }
 
 /*///////////////////////////////////////////////
@@ -537,4 +537,24 @@ li {
 li a {
    text-decoration: none;
    color: white;
+}
+
+
+.hover-text
+{
+   position: relative;
+   width: 70%;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: large;
+   background-color:white ;
+   text-align: center;
+   height: 60px;
+   left: 30px;
+   bottom: 60px;
+   z-index: 3;
+   display: none;
+}
+.project-picture .img-div img:hover + .hover-text
+{
+    display: inline-block;
 }
